@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour {
 
-	//testing github
 	Rigidbody rb;
-	private void Start()
-	{
+
+	// testing gitHub
+	void Start () {
 		rb = GetComponent<Rigidbody>();
 	}
+
 }
